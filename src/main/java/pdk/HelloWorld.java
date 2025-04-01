@@ -8,5 +8,12 @@ package pdk;
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World!");
+
+
+        int maxScore = 500;
+        int userScore = 423;
+        float percentage = (float) userScore / maxScore * 100.0f;
+        // Print the result 改变数据类型
+        System.out.println("User's percentage is " + percentage);
     }
 }
